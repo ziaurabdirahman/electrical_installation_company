@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+/* header part start */
+.logo img{
+  width: 70px;
+}
+
+.bg-custom{
+  background-color: #295EAF;
+}
+
+nav ul li a{
+  color: #fff !important;
+}
+
+nav ul li{
+  margin: 0px 4px;
+}
+
+.navbar-nav li :hover{
+  background-color: #204d99;
+  padding: 8px 70px;
+  border-radius: 5px;
+}
+
+.navbar-nav li .active{
+  background-color: #204d99;
+  padding: 8px 50px;
+  border-radius: 5px;
+}
+
+.promo-section{
+  padding: 150px 0px;
+  background-image: url(/img/promo-section.jpg);
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.promo-section::before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,.5);
+}
+
+.promo-inner{
+  width: 92%;
+  margin: 0 auto;
+  padding: 30px 250px;
+}
+.promo-inner h1, p, button{
+  color: #fff;
+  text-align: center;
+
+}
+
+.promo-inner .btn-info{
+  background-color: #295eaf;
+  border-color: #295eaf;
+}
+
+/* header part end */
+
+/* service section start */
+.services-section{
+  padding: 60px 0px;
+}
+
+/* service section end */
