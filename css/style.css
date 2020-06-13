@@ -10,6 +10,9 @@ html, body{
   scroll-behavior: smooth;
 }
 
+button.cs{
+  font-size: 18px;
+}
 
 /* header part start */
 .logo img{
@@ -69,16 +72,58 @@ nav ul li{
 
 }
 
-.promo-inner .btn-info{
-  background-color: #295eaf;
-  border-color: #295eaf;
-}
-
 /* header part end */
 
 /* service section start */
 .services-section{
-  padding: 60px 0px;
+  padding: 100px 0px;
 }
 
 /* service section end */
+
+
+/* about section start */
+section.about-us img {
+  width: 100%;
+}
+section.about-us {
+  padding-bottom: 100px;
+}
+
+/* about section end */
+
+/* footer section start */
+footer{
+  padding: 20px 0px;
+  background: #111E4B;
+}
+/* .footer-logo{
+  width: 70px;
+} */
+.footer-bar{
+  background-color: #4c505f;
+}
+footer h4{
+  color: #fff;
+}
+
+footer p, footer ul li a{
+  color: rgb(212, 212, 212);
+}
+
+footer ul{
+  list-style: none;
+  margin-left: -35px;
+}
+
+ul.fooer-links li a{
+  text-decoration: none;
+  list-style: none;
+}
+.our-offer{
+  padding-left: 9rem;
+}
+.footer-bottom{
+  margin-bottom: -18px;
+}
+/* footer section end */
