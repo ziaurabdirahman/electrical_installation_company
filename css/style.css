@@ -14,6 +14,11 @@ button.cs{
   font-size: 18px;
 }
 
+.btn-primary {
+  background: #204d99;
+  border: #204d99;
+}
+
 /* header part start */
 .logo img{
   width: 70px;
