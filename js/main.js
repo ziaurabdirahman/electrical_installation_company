@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  // wow js initialize
+  new WOW().init();
+
+
   if($('.brands_slider').length)
   {
   var brandsSlider = $('.brands_slider');
@@ -34,6 +38,6 @@ $(document).ready(function(){
   });
   }
   }
-  
-  
+
+
   });
