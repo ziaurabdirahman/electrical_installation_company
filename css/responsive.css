@@ -57,7 +57,9 @@
   .services-section .col-md-4{
     margin-bottom: 10px;
   }
-  
+  .our-offer {
+    padding-left: 15px;
+}
   
 }
 
@@ -75,5 +77,8 @@
   .services-section .col-md-4{
     margin-bottom: 15px;
   }
+  .our-offer {
+    padding-left: 15px;
+}
   
 }
